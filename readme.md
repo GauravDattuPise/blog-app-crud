@@ -26,7 +26,7 @@ Here are the api's I have done for this blogging platform
 
 
 ### create blog api (post)
-#### this api will create blog
+#### this api will create blog, need to provide token in req headers
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/create
 {
     "title" : "new user blog title",
@@ -36,7 +36,7 @@ Here are the api's I have done for this blogging platform
 
 
 ### get only specific users blog (get)
-#### this api will provide only speficic user blogs
+#### this api will provide only speficic user blogs, need to provide token in req headers
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/get-users-blog
 ## _______________________________________________________
 
@@ -46,7 +46,7 @@ Here are the api's I have done for this blogging platform
 ## _______________________________________________________
 
 ### update specific blog (PUT)
-#### this api will update the blog, need to provide blogId in url
+#### this api will update the blog, need to provide token in req headers and blogId in url
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/update/:blogId
 {
     "content" : "updated content",
@@ -55,5 +55,5 @@ Here are the api's I have done for this blogging platform
 ## _______________________________________________________
 
 ### delete specific blog (DELETE)
-#### this api will delete the blog, need to provide blogId in url
+#### this api will delete the blog, need to provide token and blogId in url
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/delete/:blogId
