@@ -31,15 +31,18 @@ Here are the api's I have done for this blogging platform
     "title" : "new user blog title",
     "content" : "new user blog content"
 }
+### this api will create blog
 ## _______________________________________________________
 
 
 ### get only specific users blog (get)
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/get-users-blog
+### this api will provide only speficic user blogs
 ## _______________________________________________________
 
 ### get all blogs (get)
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/get-all-blogs
+### this api will get all the blogs from blogging platform
 ## _______________________________________________________
 
 ### update specific blog (PUT)
@@ -48,7 +51,9 @@ Here are the api's I have done for this blogging platform
     "content" : "updated content",
     "title" : "updated title"
 }
+### this api will update the blog, need to provide blogId in url
 ## _______________________________________________________
 
 ### delete specific blog (DELETE)
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/delete/:blogId
+### this api will delete the blog, need to provide blogId in url
