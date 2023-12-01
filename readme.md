@@ -11,6 +11,7 @@ Here are the api's I have done for this blogging platform
     "email" : "newuser@gmail.com",
     "password" : "NewUser123@"
 }
+## _______________________________________________________
 
 ### login api (post)
 ### URL https://blog-app-crud.onrender.com/api/v1/user/login
@@ -18,6 +19,7 @@ Here are the api's I have done for this blogging platform
    "email" : "newuser@gmail.com",
     "password" : "NewUser123@"
 }
+## _______________________________________________________
 
 ### After login you will get token then for further apis, you will have to set that token in req headers
 
