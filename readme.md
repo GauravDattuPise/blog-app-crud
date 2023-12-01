@@ -57,3 +57,6 @@ Here are the api's I have done for this blogging platform
 ### delete specific blog (DELETE)
 #### this api will delete the blog, need to provide token and blogId in url
 ### URL https://blog-app-crud.onrender.com/api/v1/blog/delete/:blogId
+
+
+## project overview video https://drive.google.com/file/d/1I7-owYPsogf8fnqHVjAAdU_ZULolB8wv/view?usp=sharing
